@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+*::selection{
+    color: white;
+    background-color: #16c9f6;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,168,225,0.3),rgba(0,168,225,0.3)) ,url(https://www.wallpaperuse.com/wallp/90-902295_m.jpg);
+    background-size: 100% 100%;
+    clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
+    position: relative;
+}
+header::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.4;
+    /* z-index: -1; */
+    background: linear-gradient(to right,#1e5799 0%, #3ccdbb 0%, #16c9f6 100% );
+}
+.center_div{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+}
+.center_div h4{
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+.center_div p{
+    font-size: 1.5rem;
+}
+.navbar::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+    z-index: -1;
+    background: linear-gradient(to right,#1e5799 0%, #3ccdbb 0%, #16c9f6 100% );
+}
+.navbar{
+    z-index: 10;}
+.nav-item a{
+    color: white;
+}
+.header_btn{
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.1s;
+}
+.header_btn:hover{
+    color: #16c9f6;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+.header_btns{
+    display: flex;    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+/* Header End  */
+/* ThreeDiv Start  */
+.threediv{
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+.threedivs{
+    padding: 40px;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+.threedivs:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    transform: translateY(-20px);
+}
+.fas{
+    color: #16c9f6;
+}
+/* ThreeDiv End  */
+/* Offer Start  */
+.progress{
+    margin: 13px auto;
+
+}
+
+.offer{
+    background: #eeeeee;
+    padding: 13vh 0;
+}
+.service_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hr{
+    margin: 5px 0;
+}
+.progresses{
+    margin-top: 35px;
+}
+.texts{
+    margin-top: 20px;
+}
+.texts h2{
+    font-size: 1.5rem;
+}
+.texts p{
+    font-size: 0.9rem;
+}
+/* Offer End  */
+/* Counts Start  */
+.counter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#counter{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+}
+.counted p{
+    font-size: 0.9rem;
+}
+.counts h2{
+    color: #16c9f6;
+}
+/* Count End  */
