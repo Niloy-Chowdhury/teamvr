@@ -13,7 +13,12 @@
   </head>
   <body>
     <!-- Navbar Start -->
-    <header>
+    <header id="home">
+      <section class="onLoad">
+        <div class="firstPage"></div>
+        <div class="secondPage"></div>
+
+      </section>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container text-uppercase p-2">
           <a class="navbar-brand text-white" href="#">Niloy CHowdhury</a>
@@ -23,19 +28,19 @@
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active text-white " aria-current="page" href="#">Home</a>
+                <a class="nav-link active text-white " aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white " aria-current="page" href="#">Services</a>
+                <a class="nav-link text-white " aria-current="page" href="#about">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" aria-current="page" href="#">Price</a>
+                <a class="nav-link text-white" aria-current="page" href="#offer">Offers</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" aria-current="page" href="#">About</a>
+                <a class="nav-link text-white" aria-current="page" href="#counter">Statistics</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" aria-current="page" href="#">Contact</a>
+                <a class="nav-link text-white" aria-current="page" href="#footer">Footer</a>
               </li>
             </ul>
           </div>
@@ -48,8 +53,8 @@
           <h4>We are Team VR</h4>
           <p>We create the world's best players</p>
           <div class="header_btns">
-            <a class="header_btn" href="#">AboutUs</a>
-            <a class="header_btn" href="#">Contact</a>
+            <a class="header_btn" href="#about">AboutUs</a>
+            <a class="header_btn" href="#offer">Offers</a>
           </div>
 
         </div>
@@ -57,7 +62,7 @@
     </header>
     <!-- Header End -->
     <!-- ThreeDiv start -->
-    <section class="threediv">
+    <section class="threediv" id="about">
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-lg-4 col-12 threedivs">
@@ -83,7 +88,7 @@
     </section>
     <!-- ThreeDiv End -->
     <!-- Offerings Start  -->
-    <section class="offer">
+    <section class="offer" id="offer">
       <div class="container text-center">
         <h2 class="text-uppercase">what do we offer</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -150,7 +155,7 @@
     <!-- Counter Start  -->
     <section id="counter"> 
       <div class="container text-center counted">
-        <h2 class="text-uppercase">Our team</h2>
+        <h2 class="text-uppercase test">Our team</h2>
         <p class="text-uppercase">This is a complete overview of our team</p>
         <div class="counter">
 
@@ -174,6 +179,35 @@
       </div>
 
     </section>
+    <!-- Counter End  -->
+    <!-- Footer Start  -->
+    <footer class="footer" id="footer">
+      <div class="row contents">
+        <div class="col-lg-4 col-md-6 col-12 left">
+          <h2>Aboout Team VR</h2>
+          <p>Team VR is the name of a virtual family. A family which protects, a family which supports and a family which stands by you in every situation. We play together, we fight together , but most importanly, we are Together.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 text-center middle">
+          <h2>Navbar Links</h2>
+          <div class="lastNav"> 
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#offer">Offers</a>
+            <a href="#counter">Statistics</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-12 right">
+          <h2>Join Us Now!</h2>
+          <p>Join Team VR and become the part of the future Biggest Team in this whole world</p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2021 All rights reserved by Niloy Chowdhury</p>
+      </div>
+      
+    </footer>
+    <!-- Footer End  -->
+    
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
